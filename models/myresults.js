@@ -14,17 +14,22 @@ const  ResultSchema = new mongoose.Schema({
         required:true
     } ,
 
-    result:{
+    optimalcompany:{
 
         type:Number,
         required:true
     },
+
+    optimalMarket:{
+        type:Number
+    }
+    ,
     
     year:{
         type:Number,
         required:"Year is required",
-        maxlength:4,
-        minlength:4
+    length:4,
+  
     } 
     
    
